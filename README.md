@@ -1,63 +1,76 @@
-JavaScript To-Do App
+# JavaScript To-Do App
 
-Project 2 of my 30  JavaScript Projects Challenge.
+Project 2 of my 30 JavaScript Projects Challenge.
 
 A fully responsive To-Do application built using Vanilla JavaScript with structured state management and localStorage persistence.
 
+---
+
 ## Features
 
-Add new tasks
-Delete tasks
-Mark tasks as completed
-Persistent storage using localStorage
-State-driven rendering (No raw HTML storage)
-Fully responsive design
+- Add new tasks
+- Delete tasks
+- Mark tasks as completed
+- Persistent storage using localStorage
+- State-driven rendering without storing raw HTML
+- Fully responsive design
 
+---
 
 ## Architecture Approach
 
-This project uses a state-driven architecture.
-Tasks are stored as structured data:
+This project uses a state-driven architecture where tasks are stored as structured data rather than HTML.
 
+Example task data:
+
+```javascript
 [
-{ text: "Learn JavaScript", completed: false },
-{ text: "Build projects", completed: true }
+  { text: "Learn JavaScript", completed: false },
+  { text: "Build projects", completed: true }
 ]
+```
 
-The UI is dynamically rendered from this data using a renderTasks() function.
+The UI is dynamically rendered from this data using a `renderTasks()` function.
 
-## Whenever the state changes:
+### Whenever the State Changes
 
-The tasks array is updated
-Data is saved to localStorage
-The UI is re-rendered
+- The tasks array is updated
+- Data is saved to localStorage
+- The UI is re-rendered
 
+---
 
 ## Tech Stack
 
-HTML5
-CSS3
-Vanilla JavaScript
-localStorage API
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- localStorage API
 
+---
 
 ## What I Learned
 
-Managing application state using arrays of objects
-Rendering UI dynamically from data
-Event delegation
-JSON.stringify() and JSON.parse()
-Refactoring from DOM-based to state-based architecture
+- Managing application state using arrays of objects
+- Rendering UI dynamically from data
+- Event delegation
+- Using `JSON.stringify()` and `JSON.parse()`
+- Refactoring from DOM-based to state-based architecture
 
+---
 
 ## Live Demo
-https://saurabh54e.github.io/Js-Project02-ToDo-App/
 
+[View Live Demo](https://saurabh54e.github.io/Js-Project02-ToDo-App/)
 
+---
 
+## Author
 
-👨‍💻 Author
-Saurabh Singh 
-B.Tech CSE (AI & ML) — Web Development | UI/UX | Robotics
+Saurabh Singh
 
-⭐ If you like this project, consider giving it a star!
+B.Tech CSE — Web Development | UI/UX | Robotics
+
+---
+
+If you like this project, consider giving it a star!
