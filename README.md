@@ -1,6 +1,6 @@
 JavaScript To-Do App
 
-Day 2 of my 30 Days JavaScript Challenge.
+Project 2 of my 30  JavaScript Projects Challenge.
 
 A fully responsive To-Do application built using Vanilla JavaScript with structured state management and localStorage persistence.
 
@@ -51,7 +51,7 @@ Refactoring from DOM-based to state-based architecture
 
 
 ## Live Demo
-https://saurabh54e.github.io/Js-Day02-ToDo-App/
+https://saurabh54e.github.io/Js-Project02-ToDo-App/
 
 
 
